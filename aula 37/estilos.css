@@ -1,0 +1,22 @@
+p{
+    font-size:30px;
+}
+
+p::first-latter{
+    font-size:40px;
+    color:#4682B4;
+}
+
+p::first-line{
+    background:#98FB98;
+}
+
+::selection{
+    color: darkred;
+    background:#98FB98; ;
+}
+
+::-moz-selection{
+    color: darkred;
+    background:#98FB98; ;
+}

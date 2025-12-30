@@ -1,0 +1,17 @@
+div{
+    width:300px;
+    height:70px;
+    border-radius:10px;
+    padding:10px;
+    resize:both;
+    overflow:hidden;
+    float:left;
+}
+
+img{
+    width:100%;
+}
+
+div:hover{
+    border:3px solid blue;
+}

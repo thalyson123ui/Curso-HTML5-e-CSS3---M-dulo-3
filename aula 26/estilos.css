@@ -1,0 +1,22 @@
+div,span{
+    border:1px solid blue;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+
+#d1{
+    display:inline;
+}
+
+#s1{
+    display:inline-block;
+}
+
+#d2{
+    display:inline;
+}
+
+#s2{
+    display:inline-block;
+}

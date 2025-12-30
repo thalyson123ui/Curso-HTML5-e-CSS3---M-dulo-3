@@ -1,0 +1,33 @@
+div{
+    border:1px solid #2F4F4F;
+    background-color:#98FB98;
+    width:200px;
+    height:200px;
+    text-align:center;
+    line-height:200px;
+    margin-bottom:10px;
+}
+
+ol,ul,li{
+    border:1px solid #2F4F4F;
+    margin:0px;
+    padding:0px;
+}
+
+ol{
+    display:table;
+    width:300px;
+}
+
+ul{
+    display:table-row;
+}
+
+li{
+    display:table-cell;
+    text-align:center;
+}
+
+.titulo{
+    background-color:#00FA9A;
+}

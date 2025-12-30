@@ -1,0 +1,21 @@
+p{  width:300px ;
+    border-top:#000000 solid 20px;
+    border-right:#228B22 double 20px;
+    border-bottom:#87CEEB dotted 20px;
+    border-left:#ADFF2F groove 20px;
+
+    border-top-width:20px ;
+    border-right-width: 20px; 
+    border-bottom-width: 20px; 
+    border-left-width: 20px; 
+
+    border-top-style:solid ;
+    border-right-style:solid ;
+    border-bottom-style:solid ;
+    border-left-style:solid ;
+
+    border-top-color: #ADFF2F;
+    border-right-color: #ADFF2F;
+    border-bottom-color: #ADFF2F;
+    border-left-color: #ADFF2F;
+}

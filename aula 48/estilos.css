@@ -1,0 +1,19 @@
+img{
+    width:500px;
+}
+
+body{
+    background:#7B68EE;
+}
+
+@media screen and (max-width:400px) and (orientation:portrait) {
+    body{
+        background:#EE82EE;
+    }
+}
+
+@media screen and (max-width:400px) and (orientation:landscape) {
+    body{
+        background:#00f;
+    }
+}

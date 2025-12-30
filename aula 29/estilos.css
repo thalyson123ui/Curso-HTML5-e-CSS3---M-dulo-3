@@ -1,0 +1,50 @@
+section{
+    border:3px solid #40E0D0;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-moz-flex;
+
+    /*quebra de linha*/
+    flex-wrap:wrap;
+
+    /*alinhamento horizontal :flex start-center-flex-end*/
+    justify-content:flex-start;
+
+    /*alinhamento vertical :flex start-center-flex-end*/
+    align-items:flex-start;
+
+    /*direçao dos elementos :row-column |reverse */
+    flex-direction:row;
+}
+
+div{
+    border:1px solid #008B8B;
+    height:50px;
+    /*flex:1;*/
+}
+
+#d2{
+    order:2;
+    flex:1 0 auto;
+}
+
+#d3{
+    order:3;
+    width:100px;
+}
+
+#d4{
+    order:4;
+    width:100px;
+}
+
+#d5{
+    order:5;
+    width:100px;
+}
+
+#d6{
+    order:6;
+    flex-shrink:1;
+}

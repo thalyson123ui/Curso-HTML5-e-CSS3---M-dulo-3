@@ -1,0 +1,25 @@
+section{
+    border:3px solid #40E0D0;
+    height:200px;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-moz-flex;
+
+    /*quebra de linha*/
+    flex-wrap:wrap;
+
+    /*alinhamento horizontal :flex start-center-flex-end*/
+    justify-content:flex-start;
+
+    /*alinhamento vertical :flex start-center-flex-end*/
+    align-items:flex-start;
+
+    /*direçao dos elementos :row-column |reverse */
+    flex-direction:row;
+}
+
+div{
+    border:1px solid #008B8B;
+    width:100px;
+}

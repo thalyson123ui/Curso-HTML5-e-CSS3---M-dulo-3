@@ -1,0 +1,27 @@
+*{
+    color:black;
+}
+
+html{
+    color:red
+}
+
+body{
+    color:green;
+}
+
+#d1{
+    color:red;
+}
+
+#d2{
+    color:violet;
+}
+
+#d3{
+    color:greenyellow;
+}
+
+h1,p{
+    color:inherit;
+}

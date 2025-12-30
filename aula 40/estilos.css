@@ -1,0 +1,34 @@
+@keyframes anima1{
+    form{left:500px;top:500px;}
+    to{left:0px;top:0px;}
+}
+
+@keyframes anima2{
+    form{background-color:#fff;left:0px;top:0px;}
+    to{background-color:#f00;left:0px;top:0px;}
+}
+
+@keyframes anima3{
+    form{background-color:#f00;left:0px;top:0px;}
+    to{background-color:#fff;}
+}
+
+@keyframes anima4{
+    form{left:0px;top:0px;}
+    to{left:500px;top:500px;}
+}
+
+p{
+    position:relative;
+    left:500px;
+    top: 500px;
+    width:260px;
+    height:260px;
+    border: 1px solid #2E8B57;
+    border-radius:10px;
+    padding:10px;
+    text-align:justify;
+    animation-name:anima1,anima2,anima3,anima4;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-delay:0s,2s,4s,6s;

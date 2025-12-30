@@ -1,0 +1,12 @@
+p.thalyson::before{
+    content:"&canal thalyson&";
+    color:green;
+}
+
+p::after{
+    content:"&canal thalyson&";
+}
+
+p{
+    font-size:40px;
+}

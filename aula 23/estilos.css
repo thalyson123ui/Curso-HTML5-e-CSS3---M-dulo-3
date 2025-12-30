@@ -1,0 +1,24 @@
+ol{
+    list-style:none;
+    padding:0px;
+
+}
+
+li{
+    width:200px;
+    height:40px;
+    background-color:#008000;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    border-right:1px solid #7CFC00;
+}
+
+li:hover{
+    background-color:#2F4F4F ;
+}
+
+a{
+    text-decoration:none;
+    color:#98FB98;
+}

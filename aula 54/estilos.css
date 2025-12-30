@@ -1,0 +1,31 @@
+#p1{
+    font-size:20px;
+}
+
+#p2{
+    font-size:20pt; /*1pt (pontos) = 1,3333px*/
+}
+
+#p3{
+    font-size:20pc; /*1pc (paicas) = 16px*/
+}
+
+div{
+    border:1pc solid brown;
+}
+
+#d1{
+    width:2.54cm;
+    height:2.54cm;
+}
+
+#d2{
+    width:25.4mm;
+    height:25.4mm;
+}
+
+#d3{
+    width:1in;
+    height:1in;
+}
+

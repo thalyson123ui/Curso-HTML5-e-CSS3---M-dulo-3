@@ -1,0 +1,25 @@
+table,td,th{
+    border:2px solid #FF00FF;
+}
+
+table{
+    width:500px;
+    table-layout:fixed;
+    border-collapse:collapse;
+}
+
+td,th{
+    height:30px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+th{
+    background-color:#9932CC;
+    color:#9370DB;
+    font-size:25px;
+}
+
+tr:nth-child(even){
+    background-color:#ddd;
+}

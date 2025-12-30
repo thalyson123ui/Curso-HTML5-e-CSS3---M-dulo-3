@@ -1,0 +1,23 @@
+p{
+    position:relative;
+    left:0px;
+    top:0px;
+    width:800px;
+    height:500px;
+    border:1px solid #4B0082;
+    border-radius:10px;
+    padding:10px;
+    text-align:justify;
+
+    columns:3;
+    -webkit-columns:3;
+    -moz-columns:3;
+    
+    column-gap:50px;
+    -webkit-column-gap:50px;
+    -moz-column-gap:50px;
+
+    column-rule:10px inset #FF1493;
+    -webkit-column-rule:10px inset #FF1493;
+    -moz-column-rule:10px inset #FF1493;
+}
